@@ -1,0 +1,19 @@
+
+.container{
+width: 500px;
+ margin: 0 auto;
+ text-align: center;
+}
+    button{
+    width: 100px;
+    padding : 5px 12px;
+    border-radius: 12px;
+}
+
+
+#red{
+    background-color: rgb(208, 85, 85);
+}
+#blu{
+    background-color: rgb(55, 55, 220);
+}
