@@ -1,4 +1,3 @@
-let sum;
 
 const redbutton = document.getElementById("red");
 const blubutton = document.getElementById("blu");
@@ -11,7 +10,7 @@ redbutton.addEventListener("click", function(){
     const pcr = pcrandomnumber();
     console.log("pcr = " + pcr);
     // Sommiamo i due numeri
-    sum = parseInt(num)+parseInt(pcr);
+    let sum = parseInt(num)+parseInt(pcr);
     console.log("sum = " + sum);
     // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
     let pod = pariodispari(sum);
@@ -34,7 +33,7 @@ blubutton.addEventListener("click", function(){
    const pcr = pcrandomnumber();
    console.log("pcr = " + pcr);
    // Sommiamo i due numeri
-   sum = parseInt(num)+parseInt(pcr);
+   let sum = parseInt(num)+parseInt(pcr);
    console.log("sum = " + sum);
    // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
    let pod = pariodispari(sum);
